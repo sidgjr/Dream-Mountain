@@ -1,0 +1,17 @@
+Game Design
+
+Psicologia do Jogador
+
+UX
+
+Performance
+
+Imersão
+
+Acessibilidade
+
+Testes
+
+Teorias
+
+Pathfinding
