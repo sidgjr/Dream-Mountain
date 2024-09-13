@@ -12,7 +12,7 @@ Física
 
     Godot Physics
 
-Animação
+Modelagem, Arte e Animação
 
     Procedural Animation
     
@@ -21,6 +21,8 @@ Animação
     DragonBones
 
     Pixelorama
+
+    Blender
 
 Gerenciamento
 
