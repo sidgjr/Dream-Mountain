@@ -6,3 +6,10 @@ https://www.udemy.com/course/free-2d-game-character-animation-dragonbones
 
 Aprenda a Criar Animações para Jogos 2D
 https://www.udemy.com/course/aprenda-criar-animacoes-para-jogos-vetoriais
+
+
+
+// Doc
+
+DragonBones Getting Started Guide
+http://dragonbones.effecthub.com/DBGettingStarted_V2.0_en.html

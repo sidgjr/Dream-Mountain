@@ -21,3 +21,13 @@ https://www.udemy.com/course/aprenda-desenvolvimento-de-jogos
 
 Aprenda Godot 4.0 e GDScript em 7 dias + PROJETOS (2023)
 https://www.udemy.com/course/aprenda-godot-e-gdscript-em-7-dias
+
+Create a procedurally generated 2D Roguelike in Godot 4
+https://www.udemy.com/course/create-a-procedurally-generated-2d-roguelike-in-godot-4
+
+
+
+// Doc
+
+Documentação da Godot Engine 4.3 em Português Brasileiro
+https://docs.godotengine.org/pt-br/4.x/index.html
