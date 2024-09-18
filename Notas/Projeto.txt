@@ -22,6 +22,8 @@ Modelagem, Arte e Animação
 
     Pixelorama
 
+        Pixelart
+
     Blender
 
 Gerenciamento
