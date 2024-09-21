@@ -1,0 +1,44 @@
+# Sistema de arquivos
+.DS_Store
+Thumbs.db
+
+# Godot Engine-specific
+.import/
+export.cfg
+export_presets.cfg
+
+# Arquivos temporários e cache
+*.tmp
+*.log
+*.db
+*.save
+*.cfg
+*.mono
+*.godot
+
+# Binários de compilação para plataformas específicas (se for o caso)
+*.exe
+*.apk
+*.x86_64
+*.pck
+*.dylib
+*.dll
+*.so
+
+# Diretórios e arquivos do Visual Studio Code ou IDEs
+.vscode/
+.idea/
+*.sln
+*.csproj
+*.pidb
+*.suo
+*.user
+*.userosscache
+*.userprefs
+
+# Godot Mono (se estiver usando C#)
+.mono/
+*.mono_glue.*
+
+# Diretório de builds e arquivos gerados pela exportação
+/bin/
