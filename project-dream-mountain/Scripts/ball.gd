@@ -1,8 +1,8 @@
 extends RigidBody3D
 
-var speed = 1.0
+var speed = 5
 
-func _physics_process(delta):
+func _physics_process(_delta):
 	var velocity = Vector3.ZERO
 
 	if Input.is_action_pressed("move_forward"):
@@ -16,4 +16,4 @@ func _physics_process(delta):
 
 	if velocity != Vector3.ZERO:
 		velocity = velocity.normalized() * speed
-		apply_central_impulse(velocity)
+		linear_velocity = velocity
