@@ -1,4 +1,4 @@
-[gd_scene load_steps=6 format=3 uid="uid://mhdampn7o2um"]
+[gd_scene load_steps=8 format=3 uid="uid://mhdampn7o2um"]
 
 [ext_resource type="Script" path="res://Scripts/ball.gd" id="1_bjcxd"]
 
@@ -8,7 +8,13 @@ size = Vector3(60, 2, 60)
 [sub_resource type="BoxMesh" id="BoxMesh_n1knf"]
 size = Vector3(60, 2, 60)
 
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_j7cmp"]
+albedo_color = Color(0, 0.658824, 0, 1)
+
 [sub_resource type="SphereMesh" id="SphereMesh_x28jh"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_0colx"]
+albedo_color = Color(0, 0.278431, 1, 1)
 
 [sub_resource type="SphereShape3D" id="SphereShape3D_hk5xj"]
 
@@ -21,6 +27,7 @@ shape = SubResource("BoxShape3D_r7efw")
 
 [node name="Floor_Mesh" type="MeshInstance3D" parent="Floor"]
 mesh = SubResource("BoxMesh_n1knf")
+surface_material_override/0 = SubResource("StandardMaterial3D_j7cmp")
 
 [node name="Light" type="DirectionalLight3D" parent="."]
 transform = Transform3D(1, 0, 0, 0, 0.982945, 0.1839, 0, -0.1839, 0.982945, 0, 5.11728, 0)
@@ -34,6 +41,7 @@ script = ExtResource("1_bjcxd")
 
 [node name="MeshInstance3D" type="MeshInstance3D" parent="Ball"]
 mesh = SubResource("SphereMesh_x28jh")
+surface_material_override/0 = SubResource("StandardMaterial3D_0colx")
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="Ball"]
 shape = SubResource("SphereShape3D_hk5xj")
